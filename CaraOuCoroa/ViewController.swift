@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     @IBAction func botaoJogarPressionado(_ sender: UIButton) {
         performSegue(withIdentifier: "toResultVC", sender: nil)
-        print("Outro Teste")
+        print("Outro Teste, de novo")
     }
     
 }
